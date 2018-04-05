@@ -7,15 +7,14 @@ body
 }
 
 li{
-	float: right;
 	padding: 14px 16px;
 	text-decoration: none;
-
 }
+
 ul
 {
 	list-style-type: none;
-
+	text-decoration: none
 }
 
 
@@ -51,15 +50,15 @@ ul
 
 
 .bouton-search input{
-    height: 35px;
-    width: 150px;
+	height: 35px;
+	width: 150px;
 
-    border: none;
+	border: none;
 
-    background-color: rgba(168, 168, 168, 0.25);
-    font-weight: bold;
-    color: rgb(112, 112, 112);
-    
+	background-color: rgba(168, 168, 168, 0.25);
+	font-weight: bold;
+	color: rgb(112, 112, 112);
+
 }
 
 .img
@@ -86,7 +85,7 @@ ul
 
 
 footer{
-	width: 100%;
+	width: small;
 	position: absolute;
 	bottom: 20px;
 	left: 0;
@@ -94,14 +93,22 @@ footer{
 }
 
 footer ul{
-	width: 50%;
+	width: 40%;
 	display: inline;
+	text-decoration: none
 }
 
 
 
-footer ul li{
-	display: inline-block;
-	margin-left: 20px;
+footer li{
+	font-size: 13px
+	margin-left: 30px;
+	line-height: 5px;
+	text-decoration: none;
 }
 
+.bottom {
+	"display: block;
+	justify-content: center; 
+	align-items: center;"
+}
